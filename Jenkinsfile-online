@@ -10,11 +10,11 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'aliyunhub-id'
+        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'ggbondzzz'
+        DOCKERHUB_NAMESPACE = 'GGbondzzz'
         GITHUB_ACCOUNT = 'GGbondzzz'
         APP_NAME = 'devops-java-sample'
     }
